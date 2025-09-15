@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+button {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* FAQ answers hidden by default */
+.faq-answer {
+  display: none;
+  padding-left: 1rem;
+}
+
+/* Dark mode class */
+.dark-mode {
+  background: #121212;
+  color: #f0f0f0;
+}

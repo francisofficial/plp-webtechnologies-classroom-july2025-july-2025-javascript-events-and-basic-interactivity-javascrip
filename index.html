@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Workshop - Interactive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Community Workshop</h1>
+    <p>Interactive Web Experience!</p>
+    <button id="themeToggleBtn">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Collapsible FAQ Section -->
+    <section id="faq">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <button class="faq-question">What is this workshop about?</button>
+        <p class="faq-answer">It’s about learning web development step by step!</p>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Who can join?</button>
+        <p class="faq-answer">Anyone interested in coding and web design.</p>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="registration">
+      <h2>Register Now</h2>
+      <form id="regForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="example@mail.com"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password"><br>
+
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Community Workshop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
